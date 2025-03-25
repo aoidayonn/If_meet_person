@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto min-h-screen flex flex-col justify-center items-center gap-6 px-4 py-12 md:py-20 text-center bg-gradient-to-b from-pink-50 to-white">
       <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-pink-600 drop-shadow-sm">
-        もしも、"あの人"に聞けたなら
+        もしも、&quot;あの人&quot;に聞けたなら
       </h1>
       <p className="text-sm md:text-base text-gray-600 italic">
         “あの人”と、もう一度つながるAIアプリ。

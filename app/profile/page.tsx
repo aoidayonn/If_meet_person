@@ -36,9 +36,10 @@ export default function ProfilePage() {
   const [error, setError] = useState('')
   const router = useRouter()
 
-  const handleChange = (key: string, value: any) => {
+  const handleChange = (key: keyof typeof profile, value: string | boolean) => {
     setProfile((prev) => ({ ...prev, [key]: value }))
   }
+  
 
   const handleStepChange = (nextStep: number) => {
     setStep((prev) => {

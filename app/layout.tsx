@@ -8,7 +8,7 @@ const mochiy = Mochiy_Pop_One({
   weight: '400',
 })
 
-export const metadata = {
+export const viewport = {
   title: 'もしも、あの人に聞けたなら',
   description: 'AIで、もう一度 あの人と会話を。',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', // ⭐ここ追加

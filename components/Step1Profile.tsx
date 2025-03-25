@@ -23,7 +23,6 @@ export default function Step1Profile({
   setGender,
   setError,
   onNext,
-  error,
   inputClass,
   genderButtonClass,
 }: Step1ProfileProps) {

@@ -3,7 +3,7 @@ import { supabase } from '@/lib/supabase'
 export async function POST(req: Request) {
   const { sessionId, name, content } = await req.json()
 
-  const { data: existing, error: fetchError } = await supabase
+  const { data: existing } = await supabase
     .from('memories')
     .select('*')
     .eq('session_id', sessionId)

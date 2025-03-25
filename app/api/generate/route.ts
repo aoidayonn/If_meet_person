@@ -58,7 +58,7 @@ export async function POST(req: Request) {
   }))
 
   // Supabaseから summary を取得
-  const { data: summaryData, error: summaryError } = await supabase
+  const { data: summaryData } = await supabase
   .from('summaries')
   .select('summary, updated_at')
   .eq('session_id', sessionId)
@@ -131,8 +131,6 @@ if (newMessages.length >= 5) {
   これまでの記憶：
   ${memory}
     `
-
-  console.log('🍎：', memory)
 
 
   const messages = [
