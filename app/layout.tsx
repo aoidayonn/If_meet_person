@@ -14,6 +14,11 @@ export const viewport = {
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', // ⭐ここ追加
 }
 
+export const metadata = {
+  title: 'もしも、あの人に聞けたなら - AI相談アプリ',
+  description: 'AIで、もう一度 “あの人” と話せるアプリ',
+}
+
 export default function RootLayout({
   children,
 }: {
